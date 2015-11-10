@@ -8,12 +8,9 @@
     "eslint-plugin"
   ],
   "author": "Aaron Jensen",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
-  },
-  "dependencies": {
-    "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "~1.2.0",
@@ -22,5 +19,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
