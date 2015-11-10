@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-no-require-lodash",
+  "version": "0.0.0",
+  "description": "Prevent require('lodash') in order to encourage things like require('lodash/collection/map').",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Aaron Jensen",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0",
+    "mocha": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
