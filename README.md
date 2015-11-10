@@ -36,16 +36,9 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-require-lodash/rule-name": 2
+        "no-require-lodash/no-require-lodash": 2
     }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
 
 
