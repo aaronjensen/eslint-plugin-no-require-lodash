@@ -1,6 +1,9 @@
 # eslint-plugin-no-require-lodash
 
-Prevent require('lodash') in order to encourage things like require('lodash/collection/map').
+Prevent `require('lodash')` in order to encourage things like require('lodash/collection/map').
+
+Also works for es6 imports, but for those, you might consider using
+[babel-plugin-lodash](https://github.com/megawac/babel-plugin-lodash).
 
 ## Installation
 
