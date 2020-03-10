@@ -15,8 +15,9 @@ var rule = require("../lib/rules/no-require-lodash"),
     RuleTester = require("eslint").RuleTester;
 
 RuleTester.setDefaultConfig({
-  ecmaFeatures: {
-    modules: true
+  parserOptions: {
+    "ecmaVersion": 6,
+    sourceType: "module"
   },
 });
 
